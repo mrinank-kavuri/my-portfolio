@@ -6,61 +6,24 @@
     <title>my portfolio</title>
     <style>
         body{
-            background: #04001a;
-        }
-        nav{
-            display:flexbox;
-            background-color: #170141;
-            height: 60px;
-           
-                  
+            background: rgb(139, 61, 8);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-decoration: white;
             
-        }
-        .left{
-            color: antiquewhite;
-            text-align: left;
-            font-family: 'Times New Roman', Times, serif;
-            font-size: 20px;
-            text-align: center;
-            padding: 2px;
-            
-              
-        }
-        .right{
-            color: bisque;
-            text-align: right;
-            font-family: 'Times New Roman', Times, serif;
-            font-size: 20px;
-            
-        }
-        ul li{
-            list-style: none;
-            float: right;
-            margin: 10px;
-
 
         }
-        
+        div{
+            background-color: rgb(133, 94, 24);
+
+        }
     </style>
 </head>
 <body>
-    <nav>
-        <div class="right">
-            <ul>
-                <li>support</li>
-                <li>about me</li>
-                <li>my project</li>
-                <li>home</li>
-            </ul>
-        </div>
-        <div class="left">
-            <h3>Mrinank's portfolio</h3>
-        </div>
-    </nav>
     <div>
-        <img src="data:image/png;base64,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" alt="webdesign">
+        <nav>
+            <span class="left">Mrinank kavuri</span>
+        </nav>
     </div>
-   
     
 </body>
 </html>
