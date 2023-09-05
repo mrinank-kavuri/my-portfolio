@@ -3,6 +3,25 @@
     margin: 0px;
 }
 body{
-    align-items: center;
+     position: absolute;
+     top: 30%;
+     left: 30%;
+     right: 30%;
+     background-color: #C63D2F;
+     
 
 }
+.container{
+    background-color:#E25E3E;
+    border:1px #C63D2F;
+    
+}
+.headings{
+    margin-right: 30px;
+}
+#id{
+    margin: 50px;
+}
+
+    
+
